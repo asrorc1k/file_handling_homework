@@ -8,3 +8,9 @@ def main(data:str):
     """
     
 # Read data from file
+k = []
+    for i in f :
+        if i.isdigit():
+            k.append(i)
+    return k
+f = open('txt_file/data03.txt').read()
