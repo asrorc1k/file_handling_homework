@@ -7,12 +7,6 @@ def main(data:str):
         list: return answer
     """
 
-# Read data from file
-data = data.split(',')
-i = 0
-while i < len(data):
-    data[i] = int(data[i])
-    i+=1
-return data
-f = open('txt_file/data01.txt').read()
-print(main((f)))
+# Read data from file 
+x = data.split(',')
+return x 
