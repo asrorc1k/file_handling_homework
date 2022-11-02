@@ -8,3 +8,12 @@ def main(data:str):
     """
     
 # Read data from file
+k = []
+    i = 0
+    while i < len(data) :
+        if data[i] not in '0123456789':
+            k.append(data[i])
+        i+=1
+    return k
+f = open('txt_file/data03.txt').read()
+print(main(f))
