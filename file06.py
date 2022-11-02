@@ -8,3 +8,11 @@ def main(data:str):
     """
     
 # Read data from file
+k=[]
+for i in f:
+    k.append(len(i))
+return k
+f = open('txt_file/data06.txt')
+f = f.read().split()
+print(main(f))
+Footer
