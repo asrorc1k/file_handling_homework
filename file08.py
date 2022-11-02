@@ -8,3 +8,11 @@ def main(data:str):
     """
 
 # Read data from file
+k=[]
+    for i in f:
+        if i.isdigit():
+            k.append(int(i))
+    return max(k)
+f = open('txt_file/data08.txt').read()
+f = f.split()
+print(main(f))
